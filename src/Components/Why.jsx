@@ -1,6 +1,6 @@
 import React from 'react'
 import { CheckCircle, Shield, Clock, Star } from "lucide-react";
-import image7 from "@/assets/image7.png";
+import image7 from "../assets/image7.png";
 
 const Why = () => {
     const features = [

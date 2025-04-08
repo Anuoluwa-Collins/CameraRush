@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import fc1 from "@/assets/fc1.png";
+import fc1 from "../assets/fc1.png";
 
 function ReviewCarousel() {
   return (

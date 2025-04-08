@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Star } from "lucide-react";
-import Canon from "@/assets/Canon.png";
-import drone from "@/assets/drone.png";
-import Gopro from "@/assets/Gopro.png";
-import mic from "@/assets/mic.png";
-import redcam from "@/assets/redcam.png";
-import Lens from "@/assets/Lens.png";
+import Canon from "../assets/Canon.png";
+import drone from "../assets/drone.png";
+import Gopro from "../assets/Gopro.png";
+import mic from "../assets/mic.png";
+import redcam from "../assets/redcam.png";
+import Lens from "../assets/Lens.png";
 
 
 const Featured = () => {
