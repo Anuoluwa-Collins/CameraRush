@@ -1,5 +1,5 @@
 import React from "react";
-import Image6 from "../assets/Image6.png";
+import Image6 from "@/assets/Image6.png";
 import { Link } from "react-router-dom";
 
 const Login = () => {

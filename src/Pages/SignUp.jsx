@@ -1,5 +1,5 @@
 import React from "react";
-//import Image6 from "../assets/Image6.png";
+import Image6 from "@/assets/Image6.png";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
@@ -7,11 +7,11 @@ const SignUp = () => {
     <div className="flex flex-col md:flex-row min-h-screen w-full gap-5 p-4 justify-center items-center">
       {/* Image section - hidden on mobile, visible on medium screens and up */}
       <div className="hidden md:block h-full md:w-1/2 lg:w-2/5">
-        {/* <img
+        <img
           src={Image6}
           alt="Sign up illustration"
           className="w-full h-auto object-contain"
-        /> */}
+        />
       </div>
 
       {/* Form section - full width on mobile, half width on medium screens and up */}
