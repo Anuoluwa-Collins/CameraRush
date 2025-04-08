@@ -5,11 +5,11 @@ import fc1 from "../assets/fc1.png";
 function ReviewCarousel() {
   return (
     <div className=" flex flex-col justify-between h-screen items-center p-8">
-      <div>
-        <h1 className="text-center font-bold text-5xl p-3">
+      <div className="flex flex-col justify-center items-center text-center mb-8">
+        <h1 className="text-2xl md:text-3xl font-bold mb-2">
           What Our Users Say
         </h1>
-        <p className="text-center capitalize text-xl">
+        <p className="text-gray-600 max-w-lg px-2">
           Discover how CameraRush is helping photographers and videographers
           around the world.
         </p>

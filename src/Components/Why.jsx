@@ -46,9 +46,9 @@ const Why = () => {
     ];
   return (
     <div>
-      <div className="flex flex-col justify-center items-center">
-        <h1>How it works</h1>
-        <p>
+      <div className="flex flex-col justify-center items-center text-center mb-8">
+        <h1 className="text-2xl md:text-3xl font-bold mb-2">How it works</h1>
+        <p className="text-gray-600 max-w-lg px-2">
           Renting camera gear has never been easier. Follow these simple steps
           to get started.
         </p>
@@ -97,7 +97,7 @@ const Why = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                              src={image7}
+                src={image7}
                 alt="Person holding camera in forest"
                 className="w-full h-full object-cover"
               />

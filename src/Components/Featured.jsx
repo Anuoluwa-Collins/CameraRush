@@ -148,7 +148,7 @@ const Featured = () => {
 
               <div className="p-4">
                 <div className="flex justify-between items-start mb-1">
-                  <h3 className="font-medium text-gray-900 truncate">
+                  <h3 className="font-semibold text-lg text-gray-900 truncate">
                     {item.name}
                   </h3>
                   <div className="flex items-center">
