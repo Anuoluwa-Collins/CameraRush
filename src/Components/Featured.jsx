@@ -6,7 +6,7 @@ import Gopro from "../assets/Gopro.png";
 import mic from "../assets/mic.png";
 import redcam from "../assets/redcam.png";
 import Lens from "../assets/Lens.png";
-import image1 from "../assets/image1.png";
+
 
 const Featured = () => {
   const categories = [
@@ -61,7 +61,7 @@ const Featured = () => {
       owner: "Thomas S.",
       price: 120000,
       category: "lighting",
-      image: image1 ,
+      image: mic ,
     },
     {
       id: 6,

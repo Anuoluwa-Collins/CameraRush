@@ -1,5 +1,5 @@
 import React from "react";
-import Image7 from "../assets/Image7.png";
+import Image6 from "../assets/Image6.png";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
@@ -8,7 +8,7 @@ const SignUp = () => {
       {/* Image section - hidden on mobile, visible on medium screens and up */}
       <div className="hidden md:block h-full md:w-1/2 lg:w-2/5">
         <img
-          src={Image7}
+          src={Image6}
           alt="Sign up illustration"
           className="w-full h-auto object-contain"
         />
