@@ -9,7 +9,7 @@ function ReviewCarousel() {
   return (
     <div className=" flex flex-col justify-between h-screen items-center p-8">
       <div className="flex flex-col justify-center items-center text-center mb-8">
-        <h1 className="text-2xl md:text-3xl font-bold mb-2">
+        <h1 className="text-2xl md:text-3xl font-semibold-bold mb-2">
           What Our Users Say
         </h1>
         <p className="text-gray-600 max-w-lg px-2">
@@ -33,7 +33,7 @@ function ReviewCarousel() {
                 cinema cameras. The community is supportive, and I've even made
                 some great industry connections."
               </p>
-              <h3>Sophia Chen</h3>
+              <h3 className="font-semibold">Sophia Chen</h3>
               <h6>Videographer</h6>
             </Carousel.Caption>
           </div>
@@ -53,7 +53,7 @@ function ReviewCarousel() {
                 invest in. The platform is intuitive, and the owners are always
                 helpful with tips."
               </p>
-              <h3>Iyanu Omogbadegun</h3>
+              <h3 className="font-semibold">Iyanu Omogbadegun</h3>
               <h6>Photography Student</h6>
             </Carousel.Caption>
           </div>
@@ -73,7 +73,7 @@ function ReviewCarousel() {
                 massive investment. The process is smooth, and the gear is
                 always in great condition."
               </p>
-              <h3>Folu Adedin</h3>
+              <h3 className="font-semibold">Folu Adedin</h3>
               <h6>Documrntary Photographer</h6>
             </Carousel.Caption>
           </div>
