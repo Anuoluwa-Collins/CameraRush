@@ -1,6 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import fc1 from "../assets/fc1.png";
+import folu from "../assets/folu.jpg"
+import iyanu from "../assets/iyanu.jpg";
+
 
 function ReviewCarousel() {
   return (
@@ -18,7 +21,11 @@ function ReviewCarousel() {
       <Carousel data-bs-theme="dark" className="w-full">
         <Carousel.Item interval={1000}>
           <div className="flex flex-col items-center justify-center p-8 mb-4">
-            <img className="d-block mb-4" src={fc1} alt="First slide" />
+            <img
+              className="d-block mb-4 h-40 w-45 rounded-full"
+              src={fc1}
+              alt="First slide"
+            />
             <Carousel.Caption className="position-static p-0 text-center text-black">
               <p>
                 "As a freelance videographer, I love the flexibility CameraRush
@@ -34,7 +41,11 @@ function ReviewCarousel() {
 
         <Carousel.Item interval={500}>
           <div className="flex flex-col items-center justify-center p-4 mb-4">
-            <img className="d-block mb-4" src={fc1} alt="Second slide" />
+            <img
+              className="d-block mb-4 h-40 w-45 rounded-full"
+              src={iyanu}
+              alt="Second slide"
+            />
             <Carousel.Caption className="position-static p-0 text-center text-black">
               <p>
                 "CameraRush has been invaluable for my photography education. I
@@ -42,7 +53,7 @@ function ReviewCarousel() {
                 invest in. The platform is intuitive, and the owners are always
                 helpful with tips."
               </p>
-              <h3>Marcus Williams</h3>
+              <h3>Iyanu Omogbadegun</h3>
               <h6>Photography Student</h6>
             </Carousel.Caption>
           </div>
@@ -50,7 +61,11 @@ function ReviewCarousel() {
 
         <Carousel.Item>
           <div className="flex flex-col items-center justify-center p-4 mb-4">
-            <img className="d-block mb-4" src={fc1} alt="Third slide" />
+            <img
+              className="d-block mb-4 h-40 w-45 rounded-full"
+              src={folu}
+              alt="Third slide"
+            />
             <Carousel.Caption className="position-static p-0 text-center text-black">
               <p>
                 "CameraRush has been a game-changer for my business. I can now
@@ -58,8 +73,8 @@ function ReviewCarousel() {
                 massive investment. The process is smooth, and the gear is
                 always in great condition."
               </p>
-              <h3>Alex Thompson</h3>
-              <h6>Wedding Photographer</h6>
+              <h3>Folu Adedin</h3>
+              <h6>Documrntary Photographer</h6>
             </Carousel.Caption>
           </div>
         </Carousel.Item>
