@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import fc1 from "../assets/fc1.png";
-import folu from "../assets/folu.jpg"
-import iyanu from "../assets/iyanu.jpg";
 
+import iyanu from "../assets/iyanu.jpg";
+import lascotstudios from "../assets/lascotstudios.jpg";
+import Anu from "../assets/Anu.jpg";
 
 function ReviewCarousel() {
   return (
@@ -23,7 +23,7 @@ function ReviewCarousel() {
           <div className="flex flex-col items-center justify-center p-8 mb-4">
             <img
               className="d-block mb-4 h-40 w-45 rounded-full"
-              src={fc1}
+              src={lascotstudios}
               alt="First slide"
             />
             <Carousel.Caption className="position-static p-0 text-center text-black">
@@ -33,7 +33,7 @@ function ReviewCarousel() {
                 cinema cameras. The community is supportive, and I've even made
                 some great industry connections."
               </p>
-              <h3 className="font-semibold">Sophia Chen</h3>
+              <h3 className="font-semibold">Akanji Aishat</h3>
               <h6>Videographer</h6>
             </Carousel.Caption>
           </div>
@@ -63,7 +63,7 @@ function ReviewCarousel() {
           <div className="flex flex-col items-center justify-center p-4 mb-4">
             <img
               className="d-block mb-4 h-40 w-45 rounded-full"
-              src={folu}
+              src={Anu}
               alt="Third slide"
             />
             <Carousel.Caption className="position-static p-0 text-center text-black">
@@ -73,8 +73,8 @@ function ReviewCarousel() {
                 massive investment. The process is smooth, and the gear is
                 always in great condition."
               </p>
-              <h3 className="font-semibold">Folu Adedin</h3>
-              <h6>Documrntary Photographer</h6>
+              <h3 className="font-semibold">Anuoluwa Adegoke</h3>
+              <h6>Documentary Photographer</h6>
             </Carousel.Caption>
           </div>
         </Carousel.Item>
